@@ -21,6 +21,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hemisphere", "Hemisphere\He
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HemispherePerspective", "HemispherePerspective\HemispherePerspective.vcxproj", "{6579874F-AE50-46FB-A504-422FA2836EE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MatrixStack", "MatrixStack", "{26DCADD5-3DD3-4BD0-83FA-DF05624B55B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

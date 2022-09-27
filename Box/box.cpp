@@ -20,14 +20,18 @@ void drawScene(void)
 {
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(0.0, 0.0, 0.0);
+
 	glLoadIdentity();
 
-	// Modeling transformations.
-	glTranslatef(X, Y, Z);
+	glTranslatef(0.0, 0.0, -15.0);
 
-	//glutWireCube(5.0); // Box.
-	//glutWireTeapot(5.0); // Teapot
-	glutWireCylinder(2.0, 5.0, 10.0, 2.0);
+	//glPushMatrix();
+	glScalef(1.0, 2.0, 1.0);
+	glutWireCube(5.0); // Box torso.
+	//glPopMatrix();
+	
+	glTranslatef(0.0, 7.0, 0.0);
+	glutWireSphere(2.0, 10, 8); // Spherical head.
 
 	glFlush();
 }
